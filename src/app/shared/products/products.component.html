@@ -1,0 +1,27 @@
+<div class="container-fluid">
+<h5 class="text-center"><strong>Products</strong></h5>
+<div>
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr class="table-header">
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Measure</th>
+        <th scope="col">Price (R$)</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of productStock">
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.measure}}</td>
+        <td>{{item.price}}</td>
+        <td>
+          <span (click)="deleteProduct(item.id)" class="bi bi-trash"></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

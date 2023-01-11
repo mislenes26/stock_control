@@ -1,0 +1,14 @@
+.container-fluid{
+    background-image: linear-gradient(rgb(31, 206, 220),rgb(104, 102, 11));
+    height: 100vh;
+}
+
+h5{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(104, 102, 11);
+}
+
+.table-header{
+    color: rgb(104, 102, 11);
+}

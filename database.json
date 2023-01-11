@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "wheat",
+      "measure": "kg",
+      "price": "0,80",
+      "entry": 10,
+      "exit": 2
+    },
+    {
+      "id": 2,
+      "name": "barley",
+      "measure": "kg",
+      "price": "0,50",
+      "entry": 8,
+      "exit": 1
+    },
+    {
+      "id": 3,
+      "name": "oats",
+      "measure": "kg",
+      "price": "0,90",
+      "entry": 10,
+      "exit": 2
+    },
+    {
+      "id": 4,
+      "name": "quinoa",
+      "measure": "kg",
+      "price": "4,00",
+      "entry": 16,
+      "exit": 2
+    },
+    {
+      "name": "corn",
+      "measure": "kg",
+      "price": "1,20",
+      "entry": "12",
+      "exit": "2",
+      "id": 5
+    },
+    {
+      "name": "rice",
+      "measure": "kg",
+      "price": "2,30",
+      "entry": "14",
+      "exit": "5",
+      "id": 6
+    },
+    {
+      "name": "amaranth",
+      "measure": "kg",
+      "price": "5,00",
+      "entry": "4",
+      "exit": "1",
+      "id": 7
+    },
+    {
+      "name": "bell pepper",
+      "measure": "unit",
+      "price": "1,00",
+      "entry": "10",
+      "exit": "5",
+      "id": 8
+    },
+    {
+      "name": "cilantro",
+      "measure": "unit",
+      "price": "2,00",
+      "entry": "20",
+      "exit": "10",
+      "id": 9
+    },
+    {
+      "name": "lettuce",
+      "measure": "unit",
+      "price": "2,00",
+      "entry": "10",
+      "exit": "4",
+      "id": 10
+    }
+  ]
+}

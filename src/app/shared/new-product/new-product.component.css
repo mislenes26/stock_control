@@ -1,0 +1,40 @@
+.container-fluid{
+    background-image: linear-gradient(rgb(31, 206, 220),rgb(104, 102, 11));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.row{
+    margin-left: 120px;
+}
+
+.form-group{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.form-control{
+    width: 300px;
+}
+
+.form-select{
+    width: 300px;
+}
+
+.form-label{
+    font-weight:bold;
+    color: rgb(104, 102, 11);
+}
+
+h5{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(104, 102, 11);
+}
+
+.btn{
+    margin-top: 20px;
+    color: #5cb85c;
+}
